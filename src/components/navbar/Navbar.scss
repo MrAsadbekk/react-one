@@ -1,0 +1,45 @@
+.header {
+  background-color: #bb2339;
+
+  &__container {
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+  }
+
+  &__nav-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+
+  &__btn {
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+  }
+}
