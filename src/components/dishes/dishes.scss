@@ -32,17 +32,25 @@
     display: block;
     margin-left: auto;
     padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #646464;
+    border-radius: 6px;
+    // transform: matrix(-1, 0, 0, 1, 0, 0);
+    cursor: pointer;
   }
 
   &__next-btn {
     margin-left: 20px;
     padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #646464;
+    border-radius: 6px;
+    cursor: pointer;
   }
 
   &__box-card {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
   }
 
   &__card {

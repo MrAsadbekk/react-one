@@ -1,0 +1,84 @@
+.menu {
+  &__container {
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #bb2339;
+    text-align: left;
+  }
+
+  &__btn-group {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #bb2339;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #242424;
+  }
+
+  &__card-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+  }
+
+  &__card {
+    margin-bottom: 10px;
+    padding: 20px 20px 40px 20px;
+    border: 1px solid rgba(36, 36, 36, 0.1);
+    border-radius: 14px;
+  }
+
+  &__card_text-one {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #242424;
+  }
+
+  &__card_text-two {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #bb2339;
+  }
+}
